@@ -48,12 +48,11 @@ section {
 }
 .bestTeacher {
   .title {
-    font-size: 120px;
+    font-size: 60px;
   }
   .title--left {
     @include title;
-    font-size: 120px;
-    margin-left: 5rem;
+    font-size: 80px;
   }
 }
 .specialOffer {
@@ -64,8 +63,6 @@ section {
   overflow: hidden;
   position: relative;
   .imgContainer {
-    padding: 0 3rem;
-    margin: 1rem 5rem;
     width: 100%;
     height: 100%;
   }
@@ -73,7 +70,7 @@ section {
     text-align: center;
     position: absolute;
     top: 60%;
-    left: 32.5%;
+    left: 60%;
     transform: translate(-50%, -50%);
     .title {
       font-size: 43px;
@@ -92,6 +89,9 @@ section {
 }
 .newsletter {
   background-color: $color2;
+  .suscribe {
+    margin-top: 2rem;
+  }
   .input-email {
     padding: 5px 10px;
     border-radius: 10px;
@@ -109,8 +109,42 @@ section {
     background-color: $color3;
     color: $color1;
   }
+  .newsletterImg {
+    margin-left: 0.5rem;
+  }
 }
 footer {
   background-color: $color3;
   padding: 3rem;
+}
+
+@media (min-width: 1020px) {
+  .owner {
+    .ownerInfo {
+      margin: 5rem 0;
+      padding: 5rem 0;
+    }
+  }
+  .bestTeacher {
+    .title--left {
+      @include title;
+      font-size: 120px;
+      margin-left: 5rem;
+    }
+  }
+  .specialOffer {
+    .textContainer {
+      top: 60%;
+      left: 23%;
+    }
+  }
+  .newsletter {
+    .suscribe {
+      margin: 5rem 0;
+      padding: 5rem 0;
+    }
+    .newsletterImg {
+      margin-left: 5rem;
+    }
+  }
 }
