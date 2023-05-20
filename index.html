@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
+    <title>Yoga Studio</title>
     <!-- MY CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- BOOTSTRAP CSS -->
@@ -33,11 +34,11 @@
         <div class="container mx-auto d-block">
           <a class="navbar-brand" href="#">
             <img
-              src="images/Neutral Modern Yoga Logo.jpg"
+              src="images/logo.jpg"
               alt="Yoga Studio"
               class="mx-auto d-block"
-              width="200"
-              height="120"
+              width="250"
+              height="150"
             />
           </a>
         </div>
@@ -47,7 +48,7 @@
       <section class="hero">
         <div class="container d-flex justify-content-center my-5">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6">
               <h1 class="brand">YOGA STUDIO</h1>
               <h2 class="title">
                 The focus on strength, balance & flexibility.
@@ -56,17 +57,15 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex,
                 eligendi?
               </p>
-              <button class="btn btn-primary" type="submit">
-                Book a session
-              </button>
+              <button class="btn" type="submit">Book a session</button>
             </div>
-            <div class="col">
+            <div class="col-md-6">
               <img
                 src="images/cover.png"
                 alt=""
                 class="img-fluid d-block mx-auto"
-                width="400"
-                height="410"
+                width="530"
+                height="430"
               />
             </div>
           </div>
@@ -77,7 +76,7 @@
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <h2 class="title">A little about as</h2>
+                <h2 class="title">A little about us</h2>
                 <p class="paragraph">
                   Our yoga study is a place where everyone can find their own
                   corner of place and harmony in the hustle and bustle of the
@@ -95,7 +94,7 @@
             <div class="row">
               <div class="col-md-4">
                 <h3 class="subtitle">Workout routines</h3>
-                <i class="fa-solid fa-spa fa-xl"></i>
+                <i class="icon fa-solid fa-spa fa-xl"></i>
                 <p class="paragraph">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Beatae sapiente animi culpa doloribus vel quos est.
@@ -103,7 +102,7 @@
               </div>
               <div class="col-md-4">
                 <h3 class="subtitle">Pleasant situation</h3>
-                <i class="fa-solid fa-heart-pulse"></i>
+                <i class="icon fa-solid fa-heart-pulse"></i>
                 <p class="paragraph">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Aliquid odit molestiae assumenda quae eum non.
@@ -111,7 +110,7 @@
               </div>
               <div class="col-md-4">
                 <h3 class="subtitle">Qualified instructors</h3>
-                <i class="fa-solid fa-person-praying"></i>
+                <i class="icon fa-solid fa-person-praying"></i>
                 <p class="paragraph">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Facere quisquam labore voluptate, repellat cupiditate eaque!
@@ -125,109 +124,115 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <h2 class="title">Price List</h2>
+              <h2 class="title my-3">Price List</h2>
             </div>
           </div>
-          <div class="row">
+          <div class="row my-5">
             <div class="col-md-4 d-flex justify-content-center">
               <div class="card border-dark mb-3" style="max-width: 18rem">
-                <div class="card-header text-center">Base</div>
+                <div class="card-header text-center subtitle">Base</div>
                 <div class="card-body">
-                  <h5 class="card-title text-center">4 Training</h5>
-                  <p class="card-text text-center">*per month</p>
+                  <h5 class="card-title text-center subtitle">4 Training</h5>
+                  <p class="card-text text-center paragraph">*per month</p>
                   <div class="d-flex justify-content-center text-center">
                     <i class="fa-regular fa-calendar"></i>
-                    <p>Mon-Fri / 9am-9pm Sat-Sun / 11pm-9pm</p>
+                    <p class="paragraph">
+                      Mon-Fri / 9am-9pm Sat-Sun / 11pm-9pm
+                    </p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Yoga Nidra</p>
+                    <p class="paragraph">Yoga Nidra</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Yoga Therapy</p>
+                    <p class="paragraph">Yoga Therapy</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Meditation</p>
+                    <p class="paragraph">Meditation</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Instructor</p>
+                    <p class="paragraph">Instructor</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Supplies</p>
+                    <p class="paragraph">Supplies</p>
                   </div>
-                  <h4 class="text-center">50$</h4>
+                  <h4 class="text-center subtitle">50$</h4>
                 </div>
               </div>
             </div>
             <div class="col-md-4 d-flex justify-content-center">
               <div class="card border-dark mb-3" style="max-width: 18rem">
-                <div class="card-header text-center">Intermediate</div>
+                <div class="card-header text-center subtitle">Intermediate</div>
                 <div class="card-body">
-                  <h5 class="card-title text-center">8 Training</h5>
-                  <p class="card-text text-center">*per month</p>
+                  <h5 class="card-title text-center subtitle">8 Training</h5>
+                  <p class="card-text text-center paragraph">*per month</p>
                   <div class="d-flex justify-content-center text-center">
                     <i class="fa-regular fa-calendar"></i>
-                    <p>Mon-Fri / 9am-9pm Sat-Sun / 11pm-9pm</p>
+                    <p class="paragraph">
+                      Mon-Fri / 9am-9pm Sat-Sun / 11pm-9pm
+                    </p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Yoga Nidra</p>
+                    <p class="paragraph">Yoga Nidra</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Yoga Therapy</p>
+                    <p class="paragraph">Yoga Therapy</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Meditation</p>
+                    <p class="paragraph">Meditation</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Instructor</p>
+                    <p class="paragraph">Instructor</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Supplies</p>
+                    <p class="paragraph">Supplies</p>
                   </div>
-                  <h4 class="text-center">80$</h4>
+                  <h4 class="text-center subtitle">80$</h4>
                 </div>
               </div>
             </div>
             <div class="col-md-4 d-flex justify-content-center">
               <div class="card border-dark mb-3" style="max-width: 18rem">
-                <div class="card-header text-center">Premium</div>
+                <div class="card-header text-center subtitle">Premium</div>
                 <div class="card-body">
-                  <h5 class="card-title text-center">Unlimited</h5>
-                  <p class="card-text text-center">*per month</p>
+                  <h5 class="card-title text-center subtitle">Unlimited</h5>
+                  <p class="card-text text-center paragraph">*per month</p>
                   <div class="d-flex justify-content-center text-center">
                     <i class="fa-regular fa-calendar"></i>
-                    <p>Mon-Fri / 9am-9pm Sat-Sun / 11pm-9pm</p>
+                    <p class="paragraph">
+                      Mon-Fri / 9am-9pm Sat-Sun / 11pm-9pm
+                    </p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Yoga Nidra</p>
+                    <p class="paragraph">Yoga Nidra</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Yoga Therapy</p>
+                    <p class="paragraph">Yoga Therapy</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Meditation</p>
+                    <p class="paragraph">Meditation</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Instructor</p>
+                    <p class="paragraph">Instructor</p>
                   </div>
                   <div class="d-flex justify-content-start">
                     <i class="fa-solid fa-check"></i>
-                    <p>Supplies</p>
+                    <p class="paragraph">Supplies</p>
                   </div>
-                  <h4 class="text-center">100$</h4>
+                  <h4 class="text-center subtitle">100$</h4>
                 </div>
               </div>
             </div>
@@ -238,8 +243,9 @@
         <article class="bestTeacher">
           <div class="container">
             <div class="row">
-              <div class="col text-center">
-                <h2 class="title">Our best teachers</h2>
+              <div class="col">
+                <h2 class="title my-3">Our best</h2>
+                <h2 class="title--left">Teachers</h2>
               </div>
             </div>
           </div>
@@ -267,7 +273,7 @@
             </div>
           </div>
         </article>
-        <article class="teachers">
+        <article class="teachers my-5">
           <div class="container">
             <div class="row">
               <div class="col-md-4">
@@ -297,7 +303,7 @@
                   class="img-fluid"
                 />
                 <h4 class="subtitle text-center">Tina Arumi</h4>
-                <p class="paragraph text-center">
+                <p class="paragraph text-center mb-5">
                   Certified Nitra Yoga trainer
                 </p>
               </div>
@@ -309,20 +315,25 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <img
-                src="images/offershape.png"
-                alt=""
-                width="500"
-                height="500"
-              />
-              <h4 class="title">Special offer for you</h4>
-              <h5 class="subtitle">-20%</h5>
-              <p class="paragraph">for the first lesson</p>
+              <div class="imgContainer">
+                <img
+                  src="images/shape.png"
+                  alt="shape"
+                  width="530"
+                  height="600"
+                />
+              </div>
+              <div class="textContainer">
+                <h4 class="title">Special offer</h4>
+                <h4 class="title">for you</h4>
+                <h5 class="subtitle">-20%</h5>
+                <p class="paragraph">for the first lesson</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="Reviews">
+      <section class="reviews my-5">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -391,7 +402,7 @@
           </div>
         </div>
       </section>
-      <section class="newsletter">
+      <section class="newsletter my-5">
         <div class="container">
           <div class="row">
             <div class="col-md-8 text-center my-5 py-5 mx-0 px-0">
@@ -422,7 +433,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="mt-5">
       <div class="container">
         <div class="row">
           <div class="col-md-4">

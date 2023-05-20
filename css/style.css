@@ -1,0 +1,123 @@
+/* color palette */
+/* fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section .brand {
+  font-family: "Italiana", serif;
+  font-size: 50px;
+  font-size: 70px;
+}
+section .title {
+  font-family: "Italiana", serif;
+  font-size: 50px;
+}
+section .subtitle {
+  font-family: "Italiana", serif;
+  font-size: 40px;
+}
+section .paragraph {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+.hero .btn {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 20px;
+  background-color: #5a7a59;
+  color: #ffffff;
+}
+
+.aboutBrand {
+  background-color: rgba(173, 188, 173, 0.7882352941);
+}
+.aboutBrand .icon {
+  font-size: 40px;
+  color: black;
+}
+
+.priceList .title {
+  font-size: 100px;
+}
+.priceList .card .card-header {
+  background-color: rgba(173, 188, 173, 0.7882352941);
+}
+
+.bestTeacher .title {
+  font-size: 120px;
+}
+.bestTeacher .title--left {
+  font-family: "Italiana", serif;
+  font-size: 50px;
+  font-size: 120px;
+  margin-left: 5rem;
+}
+
+.specialOffer {
+  background: url(../images/pexels-cliff-booth-4057532.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.specialOffer .imgContainer {
+  padding: 0 3rem;
+  margin: 1rem 5rem;
+  width: 100%;
+  height: 100%;
+}
+.specialOffer .textContainer {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 32.5%;
+  transform: translate(-50%, -50%);
+}
+.specialOffer .textContainer .title {
+  font-size: 43px;
+}
+.specialOffer .textContainer .subtitle {
+  margin-top: -1.5rem;
+  font-size: 120px;
+}
+
+.reviews .title {
+  font-size: 90px;
+  margin: 1rem;
+}
+
+.newsletter {
+  background-color: rgba(173, 188, 173, 0.7882352941);
+}
+.newsletter .input-email {
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #5a7a59;
+  background-color: rgba(255, 255, 255, 0.077);
+  color: black;
+  outline: none;
+}
+.newsletter .btn-suscribe {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  padding: 4px 35px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #5a7a59;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #5a7a59;
+  padding: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

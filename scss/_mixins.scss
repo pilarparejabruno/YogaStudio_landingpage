@@ -1,0 +1,12 @@
+@mixin title {
+  font-family: $font1;
+  font-size: 50px;
+}
+@mixin subtitle {
+  font-family: $font1;
+  font-size: 40px;
+}
+@mixin paragraph {
+  font-family: $font2;
+  font-size: 20px;
+}
